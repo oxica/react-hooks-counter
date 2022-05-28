@@ -7,7 +7,6 @@ export default function Counter() {
   return (
     <div className={s.counter}>
       <span className={s.value}>{count}</span>
-
       <div className={s.controls}>
         <button type="button" onClick={() => setCount(state => state + 1)}>
           -1
